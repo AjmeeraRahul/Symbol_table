@@ -1,0 +1,20 @@
+begin
+    assign a 1
+    assign a 2
+    assign b 2
+    begin
+        assign a 3
+        assign c 4
+        print b 
+        print d
+        begin
+            assign c 5
+            print b
+            print a 
+            print c 
+        end
+        print a 
+        prin c 
+    end
+    print a 
+end
